@@ -13,9 +13,9 @@ def get_gemini_response(question):
     return response.text
 ##initialize our streamlit app
 
-st.set_page_config(page_title="Q&A Demo")
+st.set_page_config(page_title=" chat bot")
 
-st.header("Agile phase_1  : LLM1 -> testing ->: next scrum -> finetuning, tokenization   ")
+st.header("Agile phase_1  : Ask me anything  ")
 
 input=st.text_input("Input: ",key="input")
 submit=st.button("Ask the question")
